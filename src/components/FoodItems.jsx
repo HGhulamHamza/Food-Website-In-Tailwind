@@ -9,8 +9,8 @@ const FoodItems = () => {
     <div className="text-center py-5 bg-gray-200 mt-5">
       <h2 className="text-2xl mb-5 text-crimson font-bold">Food Menu</h2>
       <div className="flex flex-wrap justify-center gap-6">
-        <div className="bg-white border border-gray-300 rounded-lg flex w-1/2 max-w-md h-40 text-left p-2 mr-4">
-          <img src={s1} alt="Food Title" className="w-1/4 h-32 rounded-lg my-auto" />
+        <div className="bg-white border border-gray-300 rounded-lg flex w-full max-w-md h-40 text-left p-2 mb-4 sm:w-1/2 sm:h-40 sm:mb-0">
+          <img src={s1} alt="Food Title" className="w-1/3 h-24 rounded-lg my-auto sm:w-1/4 sm:h-32" />
           <div className="pl-4 flex flex-col justify-center">
             <h3 className="font-bold text-lg">Food Title</h3>
             <p className="font-semibold text-black mt-1">$2.3</p>
@@ -19,8 +19,8 @@ const FoodItems = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-300 rounded-lg flex w-1/2 max-w-md h-40 text-left p-2 mr-4">
-          <img src={s2} alt="Smoky Burger" className="w-1/4 h-32 rounded-lg my-auto" />
+        <div className="bg-white border border-gray-300 rounded-lg flex w-full max-w-md h-40 text-left p-2 mb-4 sm:w-1/2 sm:h-40 sm:mb-0">
+          <img src={s2} alt="Smoky Burger" className="w-1/3 h-24 rounded-lg my-auto sm:w-1/4 sm:h-32" />
           <div className="pl-4 flex flex-col justify-center">
             <h3 className="font-bold text-lg">Smoky Burger</h3>
             <p className="font-semibold text-black mt-1">$2.3</p>
@@ -29,8 +29,8 @@ const FoodItems = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-300 rounded-lg flex w-1/2 max-w-md h-40 text-left p-2 mr-4">
-          <img src={s3} alt="Nice Burger" className="w-1/4 h-32 rounded-lg my-auto" />
+        <div className="bg-white border border-gray-300 rounded-lg flex w-full max-w-md h-40 text-left p-2 mb-4 sm:w-1/2 sm:h-40 sm:mb-0">
+          <img src={s3} alt="Nice Burger" className="w-1/3 h-24 rounded-lg my-auto sm:w-1/4 sm:h-32" />
           <div className="pl-4 flex flex-col justify-center">
             <h3 className="font-bold text-lg">Nice Burger</h3>
             <p className="font-semibold text-black mt-1">$2.3</p>
@@ -39,8 +39,8 @@ const FoodItems = () => {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-300 rounded-lg flex w-1/2 max-w-md h-40 text-left p-2">
-          <img src={s5} alt="Chicken Steam Momo" className="w-1/4 h-32 rounded-lg my-auto" />
+        <div className="bg-white border border-gray-300 rounded-lg flex w-full max-w-md h-40 text-left p-2 mb-4 sm:w-1/2 sm:h-40 sm:mb-0">
+          <img src={s5} alt="Chicken Steam Momo" className="w-1/3 h-24 rounded-lg my-auto sm:w-1/4 sm:h-32" />
           <div className="pl-4 flex flex-col justify-center">
             <h3 className="font-bold text-lg">Chicken Steam Momo</h3>
             <p className="font-semibold text-black mt-1">$2.3</p>
