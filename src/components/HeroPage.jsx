@@ -8,13 +8,13 @@ const HeroPage = () => {
 
   return (
     <div className="flex justify-center items-center h-[65vh] w-full bg-cover bg-center" style={heroStyle}>
-      <div className="flex flex-col w-full max-w-[600px] p-5 md:flex-row">
+      <div className="flex w-full max-w-[700px] p-5">
         <input
           type="text"
           placeholder="Search for Food"
-          className="w-full p-2 mb-1 border-none rounded-t-md md:w-[500px] md:rounded-l-md md:rounded-t-none focus:outline-none"
+          className="w-full p-1.5 border-none rounded-l-md focus:outline-none"
         />
-        <button className="w-16 p-2 bg-crimson text-white rounded-b-md md:w-auto md:ml-1 md:rounded-r-md hover:bg-[#ff4c4c]">
+        <button className="w-[120px] p-1.5 ml-2 bg-red-600 text-white rounded-r-md hover:bg-red-700">
           Search
         </button>
       </div>
